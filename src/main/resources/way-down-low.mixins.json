@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.juceinuse.way_down_low.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

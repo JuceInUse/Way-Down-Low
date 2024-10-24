@@ -2,6 +2,7 @@ package net.juceinuse.way_down_low;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.juceinuse.way_down_low.block.ModBlocks;
 import net.juceinuse.way_down_low.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class WayDownLow implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello from "+MOD_ID);
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

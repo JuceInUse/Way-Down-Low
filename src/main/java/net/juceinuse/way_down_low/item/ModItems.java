@@ -12,15 +12,14 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item RAW_TUNGSTEN = registerItem("raw_tungsten");
-    public static final Item TUNGSTEN_INGOT = registerItem("tungsten_ingot");
-    public static final Item TUNGSTEN_NUGGET = registerItem("tungsten_nugget");
+    public static final Item RAW_TUNGSTEN = registerItem("raw_tungsten", new Item.Settings());
+    public static final Item TUNGSTEN_INGOT = registerItem("tungsten_ingot", new Item.Settings());
+    public static final Item TUNGSTEN_NUGGET = registerItem("tungsten_nugget", new Item.Settings());
 
-    private static Item registerItem(String name) {
+    private static Item registerItem(String name, Item.Settings settings) {
         RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM,Identifier.of(WayDownLow.MOD_ID, name));
-        Item.Settings settings = new Item.Settings().registryKey(key);
 
-        return Registry.register(Registries.ITEM, key, new Item(settings));
+        return Registry.register(Registries.ITEM, key, new Item(settings.registryKey(key)));
     }
 
     public static void registerModItems() {

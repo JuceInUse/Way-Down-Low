@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "way_down_low:item/tungsten_nugget"
-  }
-}

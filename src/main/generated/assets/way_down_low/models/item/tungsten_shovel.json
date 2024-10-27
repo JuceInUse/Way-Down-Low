@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "way_down_low:item/tungsten_shovel"
-  }
-}

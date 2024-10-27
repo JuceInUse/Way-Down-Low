@@ -3,7 +3,10 @@ package net.juceinuse.way_down_low;
 import net.fabricmc.api.ModInitializer;
 
 import net.juceinuse.way_down_low.block.ModBlocks;
+import net.juceinuse.way_down_low.entity.effect.ModStatusEffects;
 import net.juceinuse.way_down_low.item.ModItems;
+import net.juceinuse.way_down_low.item.ModToolMaterials;
+import net.juceinuse.way_down_low.potion.ModPotions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,5 +19,8 @@ public class WayDownLow implements ModInitializer {
 		LOGGER.info("Hello from "+MOD_ID);
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModStatusEffects.registerEffects();
+		ModPotions.registerPotions();
+		ModToolMaterials.registerModToolMaterials();
 	}
 }

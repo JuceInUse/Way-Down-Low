@@ -3,8 +3,27 @@
   "item.way_down_low.tungsten_ingot": "Tungsten Ingot",
   "item.way_down_low.tungsten_nugget": "Tungsten Nugget",
   "item.way_down_low.tungsten_tear": "Tungsten Tear",
+
+  "item.way_down_low.tungsten_axe": "Tungsten Axe",
+  "item.way_down_low.tungsten_pickaxe": "Tungsten Pickaxe",
+  "item.way_down_low.tungsten_shovel": "Tungsten Shovel",
+  "item.way_down_low.tungsten_hoe": "Tungsten Hoe",
+  "item.way_down_low.tungsten_sword": "Tungsten Sword",
+
+  "item.minecraft.potion.effect.pungent": "Pungent Potion",
+  "item.minecraft.splash_potion.effect.pungent": "Pungent Splash Potion",
+  "item.minecraft.lingering_potion.effect.pungent": "Pungent Lingering Potion",
+  "item.minecraft.tipped_arrow.effect.pungent": "Pungent Arrow",
+
+  "item.minecraft.potion.effect.density": "Potion of Density",
+  "item.minecraft.splash_potion.effect.density": "Splash Potion of Density",
+  "item.minecraft.lingering_potion.effect.density": "Lingering Potion of Density",
+  "item.minecraft.tipped_arrow.effect.density": "Arrow of Density",
+
   "block.way_down_low.raw_tungsten_block": "Raw Tungsten Block",
   "block.way_down_low.tungsten_block": "Tungsten Block",
   "block.way_down_low.tungsten_ore": "Tungsten Ore",
-  "block.way_down_low.deepslate_tungsten_ore": "Deepslate Tungsten Ore"
+  "block.way_down_low.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
+
+  "effect.way_down_low.density": "Density"
 }

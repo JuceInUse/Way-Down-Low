@@ -17,6 +17,8 @@ public class ModTags {
         public static final TagKey<Item> INGOTS = createConventionalTag("ingots");
         public static final TagKey<Item> RAW_MATERIALS = createConventionalTag("raw_materials");
         public static final TagKey<Item> NUGGETS = createConventionalTag("nuggets");
+        public static final TagKey<Item> TOOLS_MELEE_WEAPONS = createConventionalTag("tools/melee_weapons");
+        public static final TagKey<Item> TOOLS_MINING_TOOLS = createConventionalTag("tools/mining_tools");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(WayDownLow.MOD_ID, name));
@@ -27,7 +29,8 @@ public class ModTags {
     }
 
     public static class Blocks {
-        public static final TagKey<Block> MINEABLE_TUNGSTEN = createTag("mineable/tungsten");
+        public static final TagKey<Block> NEEDS_TUNGSTEN_TOOL = createTag("needs_tungsten_tool");
+        public static final TagKey<Block> INCORRECT_FOR_TUNGSTEN_TOOL = createTag("incorrect_for_tungsten_tool");
         public static final TagKey<Block> TUNGSTEN_ORES = createTag("tungsten_ores");
         public static final TagKey<Block> STORAGE_BLOCKS_RAW_TUNGSTEN = createTag("storage_blocks/raw_tungsten");
         public static final TagKey<Block> STORAGE_BLOCKS_TUNGSTEN = createTag("storage_blocks/tungsten");

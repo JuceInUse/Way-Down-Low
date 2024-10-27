@@ -3,7 +3,8 @@
 	"package": "net.juceinuse.way_down_low.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"MaceItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -34,7 +34,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(ModTags.Blocks.TUNGSTEN_ORES)
                 .add(ModBlocks.TUNGSTEN_ORE)
                 .add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
-        getOrCreateTagBuilder(ModTags.Blocks.MINEABLE_TUNGSTEN);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_TUNGSTEN_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         // Conventional Tags
         getOrCreateTagBuilder(ModTags.Blocks.ORES)

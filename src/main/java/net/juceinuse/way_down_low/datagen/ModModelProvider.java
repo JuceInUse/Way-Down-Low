@@ -27,5 +27,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TUNGSTEN_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.TUNGSTEN_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.TUNGSTEN_TEAR, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.TUNGSTEN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TUNGSTEN_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TUNGSTEN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TUNGSTEN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TUNGSTEN_SWORD, Models.HANDHELD);
     }
 }

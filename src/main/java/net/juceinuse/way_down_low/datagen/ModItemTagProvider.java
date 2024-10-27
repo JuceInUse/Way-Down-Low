@@ -19,6 +19,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         // Vanilla Tags
         getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
                 .add(ModItems.TUNGSTEN_INGOT);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.TUNGSTEN_AXE);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.TUNGSTEN_HOE);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.TUNGSTEN_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.TUNGSTEN_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.TUNGSTEN_SWORD);
 
         // Way Down Low Tags
         getOrCreateTagBuilder(ModTags.Items.TUNGSTEN_TOOL_MATERIALS)
@@ -39,5 +49,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.RAW_TUNGSTEN);
         getOrCreateTagBuilder(ModTags.Items.NUGGETS)
                 .add(ModItems.TUNGSTEN_NUGGET);
+        getOrCreateTagBuilder(ModTags.Items.TOOLS_MELEE_WEAPONS)
+                .add(ModItems.TUNGSTEN_SWORD)
+                .add(ModItems.TUNGSTEN_AXE);
+        getOrCreateTagBuilder(ModTags.Items.TOOLS_MINING_TOOLS)
+                .add(ModItems.TUNGSTEN_PICKAXE);
     }
 }

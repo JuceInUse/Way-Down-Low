@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.75,
+  "group": "raw_tungsten",
+  "ingredient": "way_down_low:deepslate_tungsten_ore",
+  "result": {
+    "id": "way_down_low:raw_tungsten"
+  }
+}

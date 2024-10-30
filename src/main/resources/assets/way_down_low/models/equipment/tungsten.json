@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "way_down_low:tungsten"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "way_down_low:tungsten"
+      }
+    ]
+  }
+}

@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.juceinuse.way_down_low.block.ModBlocks;
 import net.juceinuse.way_down_low.entity.effect.ModStatusEffects;
+import net.juceinuse.way_down_low.item.ModArmorMaterials;
 import net.juceinuse.way_down_low.item.ModItems;
 import net.juceinuse.way_down_low.item.ModToolMaterials;
 import net.juceinuse.way_down_low.potion.ModPotions;
@@ -22,5 +23,6 @@ public class WayDownLow implements ModInitializer {
 		ModStatusEffects.registerEffects();
 		ModPotions.registerPotions();
 		ModToolMaterials.registerModToolMaterials();
+		ModArmorMaterials.registerModArmorMaterials();
 	}
 }

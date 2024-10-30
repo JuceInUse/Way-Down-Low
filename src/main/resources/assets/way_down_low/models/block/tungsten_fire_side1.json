@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fire_side",
+  "textures": {
+    "fire": "way_down_low:block/tungsten_fire_1"
+  }
+}

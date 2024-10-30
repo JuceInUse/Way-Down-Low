@@ -1,0 +1,90 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "way_down_low:block/tungsten_fire_floor0"
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_floor1"
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "way_down_low:block/tungsten_fire_side0"
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side1"
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side_alt0"
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side_alt1"
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "way_down_low:block/tungsten_fire_side0",
+          "y": 90
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side1",
+          "y": 90
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side_alt0",
+          "y": 90
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side_alt1",
+          "y": 90
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "way_down_low:block/tungsten_fire_side0",
+          "y": 180
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side1",
+          "y": 180
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side_alt0",
+          "y": 180
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side_alt1",
+          "y": 180
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "way_down_low:block/tungsten_fire_side0",
+          "y": 270
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side1",
+          "y": 270
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side_alt0",
+          "y": 270
+        },
+        {
+          "model": "way_down_low:block/tungsten_fire_side_alt1",
+          "y": 270
+        }
+      ]
+    }
+  ]
+}

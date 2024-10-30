@@ -29,6 +29,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.TUNGSTEN_SHOVEL);
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.TUNGSTEN_SWORD);
+        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR)
+                .add(ModItems.TUNGSTEN_HELMET);
+        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR)
+                .add(ModItems.TUNGSTEN_CHESTPLATE);
+        getOrCreateTagBuilder(ItemTags.LEG_ARMOR)
+                .add(ModItems.TUNGSTEN_LEGGINGS);
+        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR)
+                .add(ModItems.TUNGSTEN_BOOTS);
 
         // Way Down Low Tags
         getOrCreateTagBuilder(ModTags.Items.TUNGSTEN_TOOL_MATERIALS)

@@ -1,6 +1,6 @@
 {
   "values": [
-    "#minecraft:incorrect_for_iron"
+    "#minecraft:incorrect_for_iron_tool"
   ],
   "remove": [
     "#way_down_low:needs_tungsten_tool"

@@ -29,6 +29,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
         getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
                 .add(ModBlocks.TUNGSTEN_BLOCK);
+        getOrCreateTagBuilder(BlockTags.FIRE)
+                .add(ModBlocks.TUNGSTEN_FIRE);
+        getOrCreateTagBuilder(BlockTags.REPLACEABLE)
+                .add(ModBlocks.TUNGSTEN_FIRE);
+        getOrCreateTagBuilder(BlockTags.ENCHANTMENT_POWER_TRANSMITTER)
+                .add(ModBlocks.TUNGSTEN_FIRE);
 
         // Way Down Low Tags
         getOrCreateTagBuilder(ModTags.Blocks.TUNGSTEN_ORES)
@@ -36,6 +42,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_TUNGSTEN_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.TUNGSTEN_FIRE_BASE_BLOCKS)
+                .add(ModBlocks.TUNGSTEN_BLOCK)
+                .add(ModBlocks.RAW_TUNGSTEN_BLOCK);
 
         // Conventional Tags
         getOrCreateTagBuilder(ModTags.Blocks.ORES)

@@ -34,9 +34,9 @@ public class ModTags {
         public static final TagKey<Block> TUNGSTEN_ORES = createTag("tungsten_ores");
         public static final TagKey<Block> STORAGE_BLOCKS_RAW_TUNGSTEN = createTag("storage_blocks/raw_tungsten");
         public static final TagKey<Block> STORAGE_BLOCKS_TUNGSTEN = createTag("storage_blocks/tungsten");
+        public static final TagKey<Block> TUNGSTEN_FIRE_BASE_BLOCKS = createTag("tungsten_fire_base_blocks");
         public static final TagKey<Block> ORES = createConventionalTag("ores");
         public static final TagKey<Block> STORAGE_BLOCKS = createConventionalTag("storage_blocks");
-
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(WayDownLow.MOD_ID, name));
         }

@@ -3,6 +3,7 @@ package net.juceinuse.way_down_low.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.juceinuse.way_down_low.WayDownLow;
 import net.minecraft.item.*;
+import net.minecraft.item.equipment.EquipmentType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -22,13 +23,13 @@ public class ModItems {
     public static final Item TUNGSTEN_SHOVEL = register("tungsten_shovel", settings -> new ShovelItem(ModToolMaterials.TUNGSTEN, 1.5F, -3.0F, settings));
     public static final Item TUNGSTEN_HOE = register("tungsten_hoe", settings -> new HoeItem(ModToolMaterials.TUNGSTEN, -2.0F, -1.0F, settings));
     public static final Item TUNGSTEN_SWORD = register("tungsten_sword", settings -> new SwordItem(ModToolMaterials.TUNGSTEN, 3.0F, -2.4F, settings));
-
-    private static Item register(String id, Item.Settings settings) {
-        return Registry.register(Registries.ITEM, keyOf(id), new Item(settings.registryKey(keyOf(id))));
-    }
+    public static final Item TUNGSTEN_HELMET = register("tungsten_helmet", settings -> new ArmorItem(ModArmorMaterials.TUNGSTEN, EquipmentType.HELMET, settings.fireproof()));
+    public static final Item TUNGSTEN_CHESTPLATE = register("tungsten_chestplate", settings -> new ArmorItem(ModArmorMaterials.TUNGSTEN, EquipmentType.CHESTPLATE, settings.fireproof()));
+    public static final Item TUNGSTEN_LEGGINGS = register("tungsten_leggings", settings -> new ArmorItem(ModArmorMaterials.TUNGSTEN, EquipmentType.LEGGINGS, settings.fireproof()));
+    public static final Item TUNGSTEN_BOOTS = register("tungsten_boots", settings -> new ArmorItem(ModArmorMaterials.TUNGSTEN, EquipmentType.BOOTS, settings.fireproof()));
 
     private static Item register(String id) {
-        return register(id, new Item.Settings());
+        return Registry.register(Registries.ITEM, keyOf(id), new Item(new Item.Settings().registryKey(keyOf(id))));
     }
 
     private static Item register(String id, Function<Item.Settings, Item> factory) {
@@ -65,8 +66,12 @@ public class ModItems {
                 entries.add(TUNGSTEN_HOE);
         });
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries ->
-                entries.add(TUNGSTEN_SWORD)
-        );
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
+                entries.add(TUNGSTEN_SWORD);
+                entries.add(TUNGSTEN_HELMET);
+                entries.add(TUNGSTEN_CHESTPLATE);
+                entries.add(TUNGSTEN_LEGGINGS);
+                entries.add(TUNGSTEN_BOOTS);
+        });
     }
 }

@@ -19,6 +19,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_TUNGSTEN_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUNGSTEN_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
+        blockStateModelGenerator.registerTorch(ModBlocks.TUNGSTEN_TORCH, ModBlocks.TUNGSTEN_WALL_TORCH);
+        blockStateModelGenerator.registerCampfire(ModBlocks.TUNGSTEN_CAMPFIRE);
+        blockStateModelGenerator.registerLantern(ModBlocks.TUNGSTEN_LANTERN);
     }
 
     @Override

@@ -4,6 +4,9 @@
   "item.way_down_low.tungsten_nugget": "Tungsten Nugget",
   "item.way_down_low.tungsten_tear": "Tungsten Tear",
 
+  "item.way_down_low.pyrite_ingot": "Fool's Gold Ingot",
+  "item.way_down_low.pyrite_nugget": "Fool's Gold Nugget",
+
   "item.way_down_low.tungsten_axe": "Tungsten Axe",
   "item.way_down_low.tungsten_pickaxe": "Tungsten Pickaxe",
   "item.way_down_low.tungsten_shovel": "Tungsten Shovel",
@@ -29,6 +32,12 @@
   "block.way_down_low.tungsten_block": "Tungsten Block",
   "block.way_down_low.tungsten_ore": "Tungsten Ore",
   "block.way_down_low.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
+  "block.way_down_low.tungsten_torch": "Tungsten Torch",
+  "block.way_down_low.tungsten_wall_torch": "Tungsten Wall Torch",
+  "block.way_down_low.tungsten_campfire": "Tungsten Campfire",
+  "block.way_down_low.tungsten_lantern": "Tungsten Lantern",
+
+  "block.way_down_low.pyrite_block": "Fool's Gold Block",
 
   "effect.way_down_low.density": "Density"
 }

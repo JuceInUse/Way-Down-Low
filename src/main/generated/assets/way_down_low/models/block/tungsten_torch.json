@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "way_down_low:block/tungsten_torch"
+  }
+}

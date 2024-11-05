@@ -1,0 +1,114 @@
+[02:45:12] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.3 with Fabric Loader 0.16.7
+[02:45:12] [main/INFO] (FabricLoader) Loading 43 mods:
+	- fabric-api 0.106.1+1.21.3
+	- fabric-api-base 0.4.48+2127dc7240
+	- fabric-api-lookup-api-v1 1.6.78+c47b9d4340
+	- fabric-biome-api-v1 14.0.5+c47b9d4340
+	- fabric-block-api-v1 1.0.28+c47b9d4340
+	- fabric-block-view-api-v2 1.0.16+c47b9d4340
+	- fabric-command-api-v1 1.2.56+f71b366f40
+	- fabric-command-api-v2 2.2.35+c47b9d4340
+	- fabric-commands-v0 0.2.73+df3654b340
+	- fabric-content-registries-v0 9.1.5+c47b9d4340
+	- fabric-convention-tags-v1 2.1.0+7f945d5b40
+	- fabric-convention-tags-v2 2.9.0+c47b9d4340
+	- fabric-crash-report-info-v1 0.3.3+c47b9d4340
+	- fabric-data-attachment-api-v1 1.1.38+c47b9d4340
+	- fabric-data-generation-api-v1 21.0.14+c47b9d4340
+	- fabric-dimensions-v1 4.0.7+c47b9d4340
+	- fabric-entity-events-v1 2.0.5+c47b9d4340
+	- fabric-events-interaction-v0 2.0.9+c47b9d4340
+	- fabric-game-rule-api-v1 1.0.59+c47b9d4340
+	- fabric-gametest-api-v1 2.0.13+c47b9d4340
+	- fabric-item-api-v1 11.1.5+c47b9d4340
+	- fabric-item-group-api-v1 4.1.15+e7c9ab6640
+	- fabric-lifecycle-events-v1 2.3.22+c47b9d4340
+	- fabric-loot-api-v2 3.0.24+3f89f5a540
+	- fabric-loot-api-v3 1.0.12+c47b9d4340
+	- fabric-message-api-v1 6.0.19+c47b9d4340
+	- fabric-networking-api-v1 4.3.3+56ec7ac640
+	- fabric-object-builder-api-v1 17.0.7+c47b9d4340
+	- fabric-particles-v1 4.0.8+c47b9d4340
+	- fabric-recipe-api-v1 7.0.2+c47b9d4340
+	- fabric-registry-sync-v0 5.2.0+56ec7ac640
+	- fabric-rendering-data-attachment-v1 0.3.54+73761d2e40
+	- fabric-rendering-fluids-v1 3.1.13+c47b9d4340
+	- fabric-resource-conditions-api-v1 5.0.8+c47b9d4340
+	- fabric-resource-loader-v0 3.0.5+c47b9d4340
+	- fabric-screen-handler-api-v1 1.3.98+c47b9d4340
+	- fabric-transfer-api-v1 5.4.0+c47b9d4340
+	- fabric-transitive-access-wideners-v1 6.1.8+c47b9d4340
+	- fabricloader 0.16.7
+	- java 23
+	- minecraft 1.21.3
+	- mixinextras 0.4.1
+	- way_down_low 1.0.0
+[02:45:13] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/sethw/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/51ee0a44ab05f6fddd66b09e66b3a16904f9c55d/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:45:13] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[02:45:13] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[02:45:14] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02:45:25] [main/INFO] (Way Down Low) Registering items for way_down_low
+[02:45:25] [main/INFO] (Way Down Low) Registering blocks for way_down_low
+[02:45:25] [main/INFO] (Way Down Low) Registering effects for way_down_low
+[02:45:25] [main/INFO] (Way Down Low) Registering potions for way_down_low
+[02:45:25] [main/INFO] (Way Down Low) Registering tool materials for way_down_low
+[02:45:25] [main/INFO] (Way Down Low) Registering armor materials for way_down_low
+[02:45:25] [main/INFO] (Way Down Low) Registering Block Entity Types for Way Down Low
+[02:45:25] [main/INFO] (Way Down Low) Registering Particle Types for Way Down Low
+[02:45:25] [main/INFO] (FabricDataGenHelper) Running data generator for way_down_low
+[02:45:25] [main/INFO] (Minecraft) Starting provider: Way Down Low/Tags for minecraft:block
+[02:45:26] [main/INFO] (Minecraft) Way Down Low/Tags for minecraft:block finished after 21 ms
+[02:45:26] [main/INFO] (Minecraft) Starting provider: Way Down Low/Tags for minecraft:item
+[02:45:26] [main/INFO] (Minecraft) Way Down Low/Tags for minecraft:item finished after 3 ms
+[02:45:26] [main/INFO] (Minecraft) Starting provider: Way Down Low/Block Loot Tables
+[02:45:26] [main/INFO] (Minecraft) Way Down Low/Block Loot Tables finished after 22 ms
+[02:45:26] [main/INFO] (Minecraft) Starting provider: Way Down Low/Model Definitions
+[02:45:26] [main/INFO] (Minecraft) Way Down Low/Model Definitions finished after 65 ms
+[02:45:26] [main/INFO] (Minecraft) Starting provider: Way Down Low/
+[02:45:26] [main/INFO] (Minecraft) Way Down Low/ finished after 115 ms
+[02:45:26] [main/INFO] (Minecraft) All providers took: 232 ms
+[02:45:26] [main/WARN] (Minecraft) Failed to delete file C:\Users\sethw\OneDrive\Desktop\Coding\mods\minecraft\fabric\Mine\Way-Down-Low\src\main\generated\logs\debug.log
+java.nio.file.FileSystemException: C:\Users\sethw\OneDrive\Desktop\Coding\mods\minecraft\fabric\Mine\Way-Down-Low\src\main\generated\logs\debug.log: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273) ~[?:?]
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105) ~[?:?]
+	at java.base/java.nio.file.Files.delete(Files.java:1153) ~[?:?]
+	at knot/net.minecraft.data.DataCache$1.visitFile(DataCache.java:129) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at knot/net.minecraft.data.DataCache$1.visitFile(DataCache.java:119) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2810) [?:?]
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2881) [?:?]
+	at knot/net.minecraft.data.DataCache.write(DataCache.java:119) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at knot/net.minecraft.data.DataGenerator.run(DataGenerator.java:49) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at knot/net.fabricmc.fabric.impl.datagen.FabricDataGenHelper.runInternal(FabricDataGenHelper.java:151) [fabric-data-generation-api-v1-21.0.14+c47b9d4340.jar:?]
+	at knot/net.fabricmc.fabric.impl.datagen.FabricDataGenHelper.run(FabricDataGenHelper.java:95) [fabric-data-generation-api-v1-21.0.14+c47b9d4340.jar:?]
+	at knot/net.minecraft.server.Main.handler$zbg000$fabric-data-generation-api-v1$main(Main.java:533) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:109) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.7.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[02:45:26] [main/WARN] (Minecraft) Failed to delete file C:\Users\sethw\OneDrive\Desktop\Coding\mods\minecraft\fabric\Mine\Way-Down-Low\src\main\generated\logs\latest.log
+java.nio.file.FileSystemException: C:\Users\sethw\OneDrive\Desktop\Coding\mods\minecraft\fabric\Mine\Way-Down-Low\src\main\generated\logs\latest.log: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273) ~[?:?]
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105) ~[?:?]
+	at java.base/java.nio.file.Files.delete(Files.java:1153) ~[?:?]
+	at knot/net.minecraft.data.DataCache$1.visitFile(DataCache.java:129) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at knot/net.minecraft.data.DataCache$1.visitFile(DataCache.java:119) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2810) [?:?]
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2881) [?:?]
+	at knot/net.minecraft.data.DataCache.write(DataCache.java:119) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at knot/net.minecraft.data.DataGenerator.run(DataGenerator.java:49) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at knot/net.fabricmc.fabric.impl.datagen.FabricDataGenHelper.runInternal(FabricDataGenHelper.java:151) [fabric-data-generation-api-v1-21.0.14+c47b9d4340.jar:?]
+	at knot/net.fabricmc.fabric.impl.datagen.FabricDataGenHelper.run(FabricDataGenHelper.java:95) [fabric-data-generation-api-v1-21.0.14+c47b9d4340.jar:?]
+	at knot/net.minecraft.server.Main.handler$zbg000$fabric-data-generation-api-v1$main(Main.java:533) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:109) [minecraft-merged-d0694c5d31-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.7.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.7.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[02:45:26] [main/INFO] (Minecraft) Caching: total files: 137, old count: 133, new count: 134, removed stale: 4, written: 1

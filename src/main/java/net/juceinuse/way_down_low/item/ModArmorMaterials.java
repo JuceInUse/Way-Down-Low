@@ -29,6 +29,6 @@ public class ModArmorMaterials {
 
 
     public static void registerModArmorMaterials() {
-        WayDownLow.LOGGER.info("Registering armor materials for " + WayDownLow.MOD_ID);
+        WayDownLow.LOGGER.info("Registering armor materials for {}", WayDownLow.MOD_ID);
     }
 }

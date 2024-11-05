@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "way_down_low:block/tungsten_wall_torch"
+    },
+    "facing=north": {
+      "model": "way_down_low:block/tungsten_wall_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "way_down_low:block/tungsten_wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "way_down_low:block/tungsten_wall_torch",
+      "y": 180
+    }
+  }
+}

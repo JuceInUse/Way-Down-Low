@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "way_down_low:block/tungsten_lantern"
+    },
+    "hanging=true": {
+      "model": "way_down_low:block/tungsten_lantern_hanging"
+    }
+  }
+}

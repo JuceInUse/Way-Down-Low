@@ -10,6 +10,6 @@ public class ModToolMaterials {
 
 
     public static void registerModToolMaterials() {
-        WayDownLow.LOGGER.info("Registering tool materials for " + WayDownLow.MOD_ID);
+        WayDownLow.LOGGER.info("Registering tool materials for {}", WayDownLow.MOD_ID);
     }
 }

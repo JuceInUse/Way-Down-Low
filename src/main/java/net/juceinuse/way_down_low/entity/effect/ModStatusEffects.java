@@ -22,6 +22,6 @@ public class ModStatusEffects {
     }
 
     public static void registerEffects() {
-        WayDownLow.LOGGER.info("Registering effects for "+WayDownLow.MOD_ID);
+        WayDownLow.LOGGER.info("Registering effects for {}", WayDownLow.MOD_ID);
     }
 }

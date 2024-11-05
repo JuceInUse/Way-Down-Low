@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:stick",
+    "T": "way_down_low:tungsten_nugget",
+    "X": "#minecraft:coals"
+  },
+  "pattern": [
+    "X",
+    "#",
+    "T"
+  ],
+  "result": {
+    "count": 4,
+    "id": "way_down_low:tungsten_torch"
+  }
+}

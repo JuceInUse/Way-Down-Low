@@ -17,7 +17,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.TUNGSTEN_BLOCK);
         addDrop(ModBlocks.RAW_TUNGSTEN_BLOCK);
+        addDrop(ModBlocks.TUNGSTEN_TORCH);
+        addDrop(ModBlocks.TUNGSTEN_LANTERN);
+        addDrop(ModBlocks.TUNGSTEN_CAMPFIRE, drops(ModBlocks.TUNGSTEN_CAMPFIRE, ModItems.TUNGSTEN_INGOT));
         addDrop(ModBlocks.TUNGSTEN_ORE, oreDrops(ModBlocks.TUNGSTEN_ORE, ModItems.RAW_TUNGSTEN));
         addDrop(ModBlocks.DEEPSLATE_TUNGSTEN_ORE, oreDrops(ModBlocks.DEEPSLATE_TUNGSTEN_ORE, ModItems.RAW_TUNGSTEN));
+        addDrop(ModBlocks.PYRITE_BLOCK);
     }
 }

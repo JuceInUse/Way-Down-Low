@@ -1,0 +1,9 @@
+// 1.21.3	2024-11-05T02:45:26.2371837	Way Down Low/Block Loot Tables
+70184af337e2ffcc55eaf75d11fed7b3fdb0040b data\way_down_low\loot_table\blocks\raw_tungsten_block.json
+eb3ee1fa01a7defe6db8b5150b396682b80a1dab data\way_down_low\loot_table\blocks\tungsten_campfire.json
+b9adf6203fd970aeaa4acbee2470ea42c74f9c82 data\way_down_low\loot_table\blocks\deepslate_tungsten_ore.json
+12548297772ee02587c6c63d3650cfdfc4c16f48 data\way_down_low\loot_table\blocks\tungsten_torch.json
+349f0a6b4d1f29ea26390dbc386e22c7f4f6a736 data\way_down_low\loot_table\blocks\tungsten_ore.json
+3c645795108e6db689167c5f265aa6ea904181c1 data\way_down_low\loot_table\blocks\pyrite_block.json
+629a50e2d8a6fcf72b73e8c04e272cebf77dd825 data\way_down_low\loot_table\blocks\tungsten_lantern.json
+89ac01215009f3d6f05f0f729d762852c64395c9 data\way_down_low\loot_table\blocks\tungsten_block.json

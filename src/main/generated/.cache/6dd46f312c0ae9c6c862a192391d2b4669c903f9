@@ -1,0 +1,18 @@
+// 1.21.3	2024-11-05T02:45:26.2391559	Way Down Low/Tags for minecraft:block
+28a7193ed364b23c7dc1aa390b04d732d7012dc0 data\minecraft\tags\block\needs_stone_tool.json
+7549a418e814455b20158c458a3e24d64bf56f35 data\c\tags\block\ores.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data\way_down_low\tags\block\needs_tungsten_tool.json
+43d7cee25eb577e5f4e72ba8eb6ba52473aa83f5 data\minecraft\tags\block\wall_post_override.json
+7549a418e814455b20158c458a3e24d64bf56f35 data\way_down_low\tags\block\tungsten_ores.json
+16514d42855e088806eed4aea7f78e5de88eeca1 data\minecraft\tags\block\campfires.json
+46b95884630b4d3ea98078742a0c078bbc0f9102 data\minecraft\tags\block\enchantment_power_transmitter.json
+b253eaa61a4bf11eb3b5b283c9c8a19f9021fd4a data\way_down_low\tags\block\storage_blocks\raw_tungsten.json
+16514d42855e088806eed4aea7f78e5de88eeca1 data\minecraft\tags\block\mineable\axe.json
+436e3f3f1583dd8cb5fbf2f5e3041d313c125cb4 data\way_down_low\tags\block\tungsten_fire_base_blocks.json
+b19cc9cbad96013dda4959f2cecc112f2a574de6 data\c\tags\block\storage_blocks.json
+b5779bcdaef6640f4d9c40f4b0429dd7d30bfe46 data\way_down_low\tags\block\storage_blocks\tungsten.json
+215f4aadcf369b80fe5abbb61d1dce137817a2ca data\minecraft\tags\block\mineable\pickaxe.json
+46b95884630b4d3ea98078742a0c078bbc0f9102 data\minecraft\tags\block\replaceable.json
+46b95884630b4d3ea98078742a0c078bbc0f9102 data\minecraft\tags\block\fire.json
+497a5b1aaa71d7be509d5c686bfe520b2ebfcce5 data\minecraft\tags\block\needs_diamond_tool.json
+b5779bcdaef6640f4d9c40f4b0429dd7d30bfe46 data\minecraft\tags\block\beacon_base_blocks.json

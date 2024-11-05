@@ -33,7 +33,7 @@ public class ModPotions {
     }
 
     public static void registerPotions() {
-        WayDownLow.LOGGER.info("Registering potions for "+WayDownLow.MOD_ID);
+        WayDownLow.LOGGER.info("Registering potions for {}", WayDownLow.MOD_ID);
         registerRecipes();
     }
 }

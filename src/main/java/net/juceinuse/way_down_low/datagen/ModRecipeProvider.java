@@ -13,6 +13,7 @@ import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryEntryLookup;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
 
 import java.util.List;
@@ -34,7 +35,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 RegistryEntryLookup<Item> itemLookup = registries.getOrThrow(RegistryKeys.ITEM);
 
                 createCompressibleOre(itemLookup, ModItems.TUNGSTEN_NUGGET, ModItems.TUNGSTEN_INGOT, ModBlocks.TUNGSTEN_BLOCK.asItem());
+                createCompressibleOre(itemLookup, ModItems.PYRITE_NUGGET, ModItems.PYRITE_INGOT, ModBlocks.PYRITE_BLOCK.asItem());
+
                 createCompressibleOre(itemLookup, ModItems.RAW_TUNGSTEN, ModBlocks.RAW_TUNGSTEN_BLOCK.asItem());
+
                 createToolSet(itemLookup, ModTags.Items.TUNGSTEN_TOOL_MATERIALS, ModItems.TUNGSTEN_INGOT, ModItems.TUNGSTEN_AXE, ModItems.TUNGSTEN_HOE, ModItems.TUNGSTEN_PICKAXE, ModItems.TUNGSTEN_SHOVEL, ModItems.TUNGSTEN_SWORD);
 
                 ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.BREWING, ModItems.TUNGSTEN_TEAR)
@@ -43,6 +47,44 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("## ")
                         .input('#', ModItems.TUNGSTEN_NUGGET)
                         .criterion(hasItem(ModItems.TUNGSTEN_NUGGET), conditionsFromItem(ModItems.TUNGSTEN_NUGGET))
+                        .offerTo(exporter);
+
+                ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModItems.TUNGSTEN_TORCH, 4)
+                        .pattern("X")
+                        .pattern("#")
+                        .pattern("T")
+                        .input('X', ItemTags.COALS)
+                        .input('#', Items.STICK)
+                        .input('T', ModItems.TUNGSTEN_NUGGET)
+                        .criterion(hasItem(ModItems.TUNGSTEN_NUGGET), conditionsFromItem(ModItems.TUNGSTEN_NUGGET))
+                        .offerTo(exporter);
+
+                ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModBlocks.TUNGSTEN_CAMPFIRE)
+                        .pattern(" S ")
+                        .pattern("S#S")
+                        .pattern("LLL")
+                        .input('S', Items.STICK)
+                        .input('L', ItemTags.LOGS)
+                        .input('#', ModTags.Items.TUNGSTEN_FIRE_BASE_BLOCKS)
+                        .criterion("has_"+getId(ModBlocks.TUNGSTEN_BLOCK.asItem()), conditionsFromTag(ModTags.Items.TUNGSTEN_FIRE_BASE_BLOCKS))
+                        .offerTo(exporter);
+
+                ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModBlocks.TUNGSTEN_LANTERN)
+                        .pattern("XXX")
+                        .pattern("X#X")
+                        .pattern("XXX")
+                        .input('X', Items.IRON_NUGGET)
+                        .input('#', ModItems.TUNGSTEN_TORCH)
+                        .criterion(hasItem(ModItems.TUNGSTEN_TORCH), conditionsFromItem(ModItems.TUNGSTEN_TORCH))
+                        .offerTo(exporter);
+
+                ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModItems.PYRITE_INGOT, 8)
+                        .pattern("XXX")
+                        .pattern("X#X")
+                        .pattern("XXX")
+                        .input('X', Items.IRON_INGOT)
+                        .input('#', Items.GUNPOWDER)
+                        .criterion(hasItem(Items.GUNPOWDER), conditionsFromItem(Items.GUNPOWDER))
                         .offerTo(exporter);
 
                 offerSmelting(RAW_TUNGSTEN_SMELTABLES, RecipeCategory.MISC, ModItems.RAW_TUNGSTEN, 0.75f, 200, "raw_tungsten");

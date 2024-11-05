@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_lantern",
+  "textures": {
+    "lantern": "way_down_low:block/tungsten_lantern"
+  }
+}
